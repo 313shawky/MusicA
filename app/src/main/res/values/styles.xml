@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="songs_view">
+        <item name="android:textSize">@dimen/songs_view_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:background">@color/text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="song_title">
+        <item name="android:textSize">@dimen/song_title_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="artist_name">
+        <item name="android:textSize">@dimen/artist_name_size</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="playing_song_title">
+        <item name="android:textSize">@dimen/playing_song_title_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+    <style name="playing_artist_name">
+        <item name="android:textSize">@dimen/playing_artist_name_size</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+</resources>
