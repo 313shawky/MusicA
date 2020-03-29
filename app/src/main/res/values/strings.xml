@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">MusicA</string>
     <string name="songs">explore songs</string>
-    <string name="activity_songs">songs</string>
+    <string name="activity_songs">Songs</string>
+    <string name="activity_playing">Now Playing</string>
     <string name="main_description">logo</string>
     <string name="song_description">cover art</string>
     <string name="skip_previous">skip previous</string>

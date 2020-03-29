@@ -11,10 +11,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".PlayingActivity"
-            android:label="Now Playing" />
+            android:label="@string/activity_playing">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SongsActivity" />
+        </activity>
         <activity
             android:name=".SongsActivity"
-            android:label="@string/activity_songs" />
+            android:label="@string/activity_songs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
